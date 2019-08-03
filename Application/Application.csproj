@@ -57,13 +57,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehavioralDesignPatterns\Observer\Observer.cs" />
+    <Compile Include="BehavioralDesignPatterns\Observer\ObserverProgram.cs" />
+    <Compile Include="BehavioralDesignPatterns\State\State.cs" />
+    <Compile Include="BehavioralDesignPatterns\State\StateProgram.cs" />
+    <Compile Include="BehavioralDesignPatterns\Strategy\Strategy.cs" />
+    <Compile Include="BehavioralDesignPatterns\Strategy\StrategyProgram.cs" />
     <Compile Include="CreationalDesignPatterns\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="CreationalDesignPatterns\AbstractFactory\AbstractFactoryProgram.cs" />
     <Compile Include="CreationalDesignPatterns\AbstractFactory\Cat.cs" />
     <Compile Include="CreationalDesignPatterns\AbstractFactory\Dog.cs" />
     <Compile Include="CreationalDesignPatterns\Builder\BuilderProgram.cs" />
     <Compile Include="CreationalDesignPatterns\Builder\RoomBuilder.cs" />
-    <Compile Include="CreationalDesignPatterns\Class1.cs" />
     <Compile Include="CreationalDesignPatterns\FactoryMethod\DecodedImage.cs" />
     <Compile Include="CreationalDesignPatterns\FactoryMethod\FactoryMethodProgram.cs" />
     <Compile Include="CreationalDesignPatterns\Singleton\Singleton.cs" />

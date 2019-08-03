@@ -1,3 +1,6 @@
+using Application.BehavioralDesignPatterns.Observer;
+using Application.BehavioralDesignPatterns.State;
+using Application.BehavioralDesignPatterns.Strategy;
 using Application.CreationalDesignPatterns.AbstractFactory;
 using Application.CreationalDesignPatterns.FactoryMethod;
 using Application.CreationalDesignPatterns.Singleton;
@@ -47,6 +50,21 @@ namespace Application
             Console.WriteLine("---");
             Console.WriteLine(">> Bridge");
             BridgeProgram.Run();
+            Console.WriteLine("---");
+
+            Console.WriteLine("---");
+            Console.WriteLine(">> Observer");
+            ObserverProgram.Run();
+            Console.WriteLine("---");
+
+            Console.WriteLine("---");
+            Console.WriteLine(">> State");
+            StateProgram.Run();
+            Console.WriteLine("---");
+
+            Console.WriteLine("---");
+            Console.WriteLine(">> Strategy");
+            StrategyProgram.Run();
             Console.WriteLine("---");
 
             Console.ReadKey();
