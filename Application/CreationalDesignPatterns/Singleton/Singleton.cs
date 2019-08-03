@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Singleton
+namespace Application.CreationalDesignPatterns.Singleton
 {
     class Singleton
     {
         private static Singleton _instance;
-        private static object _syncLock = new object();
+        private static readonly object _syncLock = new object();
 
         protected Singleton()
         {

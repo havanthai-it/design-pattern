@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Builder
+namespace Application.CreationalDesignPatterns.Builder
 {
     // Abstract builder
     abstract class RoomBuilder

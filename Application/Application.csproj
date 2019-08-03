@@ -57,17 +57,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory\AbstractFactory.cs" />
-    <Compile Include="AbstractFactory\AbstractFactoryProgram.cs" />
-    <Compile Include="AbstractFactory\Cat.cs" />
-    <Compile Include="AbstractFactory\Dog.cs" />
-    <Compile Include="Builder\BuilderProgram.cs" />
-    <Compile Include="Builder\RoomBuilder.cs" />
-    <Compile Include="FactoryMethod\DecodedImage.cs" />
-    <Compile Include="FactoryMethod\FactoryMethodProgram.cs" />
+    <Compile Include="CreationalDesignPatterns\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="CreationalDesignPatterns\AbstractFactory\AbstractFactoryProgram.cs" />
+    <Compile Include="CreationalDesignPatterns\AbstractFactory\Cat.cs" />
+    <Compile Include="CreationalDesignPatterns\AbstractFactory\Dog.cs" />
+    <Compile Include="CreationalDesignPatterns\Builder\BuilderProgram.cs" />
+    <Compile Include="CreationalDesignPatterns\Builder\RoomBuilder.cs" />
+    <Compile Include="CreationalDesignPatterns\Class1.cs" />
+    <Compile Include="CreationalDesignPatterns\FactoryMethod\DecodedImage.cs" />
+    <Compile Include="CreationalDesignPatterns\FactoryMethod\FactoryMethodProgram.cs" />
+    <Compile Include="CreationalDesignPatterns\Singleton\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Singleton\Singleton.cs" />
+    <Compile Include="StructuralDesignPatterns\Adapter\Shape.cs" />
+    <Compile Include="StructuralDesignPatterns\Adapter\WithAdapter.cs" />
+    <Compile Include="StructuralDesignPatterns\Adapter\WithOutAdapter.cs" />
+    <Compile Include="StructuralDesignPatterns\Bridge\BridgeProgram.cs" />
+    <Compile Include="StructuralDesignPatterns\Bridge\ProblemWithOutBridge.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
